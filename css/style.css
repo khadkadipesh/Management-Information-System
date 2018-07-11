@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+	font-size: 17px;
+	background: #EFF0F1;
+	opacity: 15;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	text-align: justify;
+}
+
+@font-face{
+	font-family: Raleway;
+    src: url('../font/Raleway-Regular.ttf');
+}
+
+a{
+	color: #2E86C1;
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+a:focus{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #283747;
+}
+
+.navbar-custom{
+    background-color: #2874A6;
+}
+
+.navbar-custom li{
+  list-style: none;
+}
+
+.navbar-custom button .icon-bar{
+    background-color: #FFFFFF;
+}
+.navbar-nav li a{
+    color: #F4D03F; 
+}
+
+.navbar-brand{
+  color: #F4D03F;
+}
+
+.navbar-custom .navbar-nav > li > a:hover{
+  color: #2874A6;
+  background-color: #F4D03F;
+}
+
+.navbar-custom .navbar-nav > .active{
+  background-color: #F1C40F;
+}
+
+.dropdown-menu{
+    background-color: #2874A6;
+}
+
+.dropdown-menu > li > a:hover{
+  color: #273746;
+  background-color: #F4D03F;
+}
+
+.dropdown-menu > .active{
+  background-color: #F1C40F;
+}
+
+#fisheye:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
